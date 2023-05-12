@@ -1,4 +1,4 @@
-# Language Swithcer
+# Language Switcher - Built in ReactJS
 
 ### Ever want to add a new language to your application but realize that you need to add modifications all over your site?
 
