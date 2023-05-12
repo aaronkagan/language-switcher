@@ -1,0 +1,32 @@
+{
+  "en": {
+    "language": "EN",
+    "title": "Welcome",
+    "name": "Enter your name",
+    "email": "Enter your email",
+    "submit": "Submit"
+  },
+  "fr": {
+    "language": "FR",
+    "title": "Bienvenue",
+    "name": "Entrez votre nom",
+    "email": "Entrez votre Email",
+    "submit": "Soumettre"
+  },
+
+  "ge": {
+    "language": "GE",
+    "title": "Willkommen",
+    "name": "Gib deinen Namen ein",
+    "email": "Geben sie ihre E-Mail Adresse ein",
+    "submit": "Einreichen"
+  },
+
+  "es": {
+    "language": "ES",
+    "title": "Hola",
+    "name": "Introduzca su Nombre",
+    "email": "Introduce su Correo Electrónico",
+    "submit": "Entregar"
+  }
+}

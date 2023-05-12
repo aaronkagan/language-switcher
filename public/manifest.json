@@ -1,0 +1,6 @@
+{
+  "short_name": "Language Switcher",
+  "name": "Language Switcher",
+  "start_url": ".",
+  "display": "standalone"
+}
