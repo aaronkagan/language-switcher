@@ -1,7 +1,3 @@
-html {
-  font-size: 22px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -9,17 +5,18 @@ body {
   background-color: #333;
   color: whitesmoke;
 }
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5em;
 }
 
 Header {
   display: flex;
   justify-content: flex-end;
-  padding: 1rem 1rem 0 0;
+  padding: 1em 1em 0 0;
 }
 
 select {
@@ -30,7 +27,8 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1em;
   border: 1px solid whitesmoke;
-  padding: 2rem;
+  padding: 2em;
+  max-width: 95vw;
 }
