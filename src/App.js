@@ -1,27 +1,20 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./header.js";
+import Contact from "./Contact.js";
 import languages from "./languages.json";
 
 function App() {
-  const languagesArray = Object.values(languages);
   const [activeLanguage, setActiveLanguage] = useState("en");
   return (
     <div className="App">
       <Header
-        languages={languagesArray}
+        languages={languages}
+        activeLanguage={activeLanguage}
         setActiveLanguage={setActiveLanguage}
       />
       <h1>{languages[activeLanguage].title}</h1>
-      <form>
-        <label for="name">{languages[activeLanguage].name}</label>
-        <input id="name" type="text" />
-        <label for="email" type="email">
-          {languages[activeLanguage].email}
-        </label>
-        <input id="email" />
-        <button type="button">{languages[activeLanguage].submit}</button>
-      </form>
+      <Contact languages={languages} activeLanguage={activeLanguage} />
     </div>
   );
 }

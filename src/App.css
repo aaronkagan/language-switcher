@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap :0.5rem;
+  gap: 0.5rem;
 }
 
 Header {
@@ -30,8 +30,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap : 1rem;
+  gap: 1rem;
   border: 1px solid whitesmoke;
   padding: 2rem;
 }
-
