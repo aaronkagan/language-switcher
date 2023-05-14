@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./header.js";
+import Header from "./Header.js";
 import Contact from "./Contact.js";
 import languages from "./languages.json";
 
