@@ -1,5 +1,7 @@
 # Language Switcher - Built in ReactJS
 
+### Deployment: https://language-switcher.netlify.app/
+
 ### Ever want to add a new language to your application but realize that you need to add modifications all over your site?
 
 ### Well this repo is an example of a solution to this problem.
@@ -15,4 +17,6 @@ You can use this template as a learning tool to see how you can apply this same 
 ![image](https://github.com/aaronkagan/language-switcher/assets/43328855/c562c6d5-b8db-4b25-a808-0a7d45b0453a)
 
 ![image](https://github.com/aaronkagan/language-switcher/assets/43328855/667222fd-de1b-4722-a478-e237c72e4c4e)
+
+
 
