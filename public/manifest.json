@@ -1,6 +1,6 @@
 {
-  "short_name": "React Language Switcher Demo",
-  "name": "React Language Switcher Demo",
+  "short_name": "React Language Switcher Template",
+  "name": "React Language Switcher Template",
   "start_url": ".",
   "display": "standalone"
 }
