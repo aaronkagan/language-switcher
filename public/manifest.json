@@ -1,6 +1,6 @@
 {
-  "short_name": "Language Switcher",
-  "name": "Language Switcher",
+  "short_name": "React Language Switcher Demo",
+  "name": "React Language Switcher Demo",
   "start_url": ".",
   "display": "standalone"
 }
