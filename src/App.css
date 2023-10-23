@@ -22,13 +22,3 @@ Header {
 select {
   width: 100px;
 }
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1em;
-  border: 1px solid whitesmoke;
-  padding: 2em;
-  max-width: 95vw;
-}

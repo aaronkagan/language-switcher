@@ -1,11 +1,11 @@
-import { useState } from "react";
-import "./App.css";
-import Header from "./Header.js";
-import Contact from "./Contact.js";
-import languages from "./languages.json";
+import { useState } from 'react';
+import './App.css';
+import Header from './Header.js';
+import Main from './Main.js';
+import languages from './languages.json';
 
 function App() {
-  const [activeLanguage, setActiveLanguage] = useState("en");
+  const [activeLanguage, setActiveLanguage] = useState('en');
   return (
     <div className="App">
       <Header
@@ -13,8 +13,10 @@ function App() {
         activeLanguage={activeLanguage}
         setActiveLanguage={setActiveLanguage}
       />
-      <h1>{languages[activeLanguage].title}</h1>
-      <Contact languages={languages} activeLanguage={activeLanguage} />
+      <Main
+        languages={languages}
+        activeLanguage={activeLanguage}
+      />
     </div>
   );
 }
