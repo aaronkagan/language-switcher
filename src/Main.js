@@ -66,7 +66,7 @@ const Main = ({ languages, activeLanguage }) => {
         <h2 className="easy">{languages[activeLanguage].easy}</h2>
         <p className="implement">{languages[activeLanguage].implement}</p>
         <h3 className="goodbye">{languages[activeLanguage].goodbye}</h3>
-        <p>
+        <p className="download">
           {languages[activeLanguage].download}{' '}
           <span>
             <a
@@ -184,6 +184,15 @@ const StyledMain = styled.main`
   .goodbye {
     font-weight: 500;
     font-size: 3rem;
+  }
+
+  .download {
+    font-size: 1.6rem;
+
+    a {
+      color: #8141af;
+      text-decoration: none;
+    }
   }
 
   .img-hero {
