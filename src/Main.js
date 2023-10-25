@@ -10,6 +10,7 @@ const Main = ({ languages, activeLanguage }) => {
       </ul>
       <h2>{languages[activeLanguage].easy}</h2>
       <p>{languages[activeLanguage].implement}</p>
+      <h3>{languages[activeLanguage].goodbye}</h3>
     </main>
   );
 };
