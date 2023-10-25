@@ -66,6 +66,17 @@ const Main = ({ languages, activeLanguage }) => {
         <h2 className="easy">{languages[activeLanguage].easy}</h2>
         <p className="implement">{languages[activeLanguage].implement}</p>
         <h3 className="goodbye">{languages[activeLanguage].goodbye}</h3>
+        <p>
+          {languages[activeLanguage].download}{' '}
+          <span>
+            <a
+              href="../src/languages.json"
+              download
+            >
+              {languages[activeLanguage].here}
+            </a>
+          </span>
+        </p>
       </div>
       <div className="col-right">
         <svg
@@ -100,7 +111,7 @@ const Main = ({ languages, activeLanguage }) => {
 
 const StyledMain = styled.main`
   background-color: #f7f7f7;
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   padding: 9.6rem 18rem;
   border-radius: 4rem;
