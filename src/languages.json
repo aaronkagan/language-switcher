@@ -1,46 +1,56 @@
 {
   "en": {
     "language": "English",
-    "title": "Welcome to the React Language Switcher Template",
-    "description": "The purpose of this template it to provide developers with an easy way to add languages throughout their application without the dependency of an external library.",
+    "titleP1": "Welcome to",
+    "titleP2": "Language",
+    "titleP3": " Switcher",
+    "description": "The purpose of this template it to provide developers with an easy way to add languages throughout their application without the dependency of an external library",
     "howItWorks": "How It Works",
-    "howP1": "Step 1: Add your translation to the languages.json file.",
-    "howP2": "Step 2: There is no step 2. You're done.",
+    "step1": "Step 1: Add your translation to the languages.json file",
+    "step2": "Step 2: There is no step 2. You're done",
     "easy": "That was easy!",
-    "implement": "Simply implement this pattern in your app once and let the pattern do it's magic.",
-    "goodbye": "That's all there is to it! Have yourself a great day."
+    "implement": "Simply implement this pattern in your app once and let the pattern do it's magic",
+    "goodbye": "That's all there is to it! Have yourself a great day",
+    "link": "To have a look at languages.json click",
+    "here": "here"
   },
   "fr": {
     "language": "Français",
-    "title": "Bienvenue sur le modèle de sélecteur de langue de React",
-    "description": "Le but de ce modèle est de fournir aux développeurs un moyen facile d'ajouter des langues à travers leur application sans la dépendance d'une bibliothèque externe.",
+    "titleP1": "Bienvenue àu",
+    "titleP2": "Sélecteur",
+    "titleP3": "de Langue",
+    "description": "Le but de ce modèle est de fournir aux développeurs un moyen facile d'ajouter des langues à leur application sans dépendre d'une bibliothèque externe.",
     "howItWorks": "Comment ça marche",
-    "howP1": "Étape 1 : Ajoutez votre traduction au fichier languages.json.",
-    "howP2": "Étape 2 : Il n'y a pas d'étape 2. Vous avez terminé.",
-    "easy": "C'était facil!",
-    "implement": "Implémentez simplement ce modèle dans votre application une fois et laissez le modèle faire sa magie.",
-    "goodbye": "C'est tout ce qu'il y a à faire! Passez une excellente journée."
+    "step1": "Étape 1 : Ajoutez votre traduction au fichier languages.json",
+    "step2": "Étape 2 : Il n'y a pas d'étape 2. Vous avez terminé",
+    "easy": "C'était facile !",
+    "implement": "Il suffit d'implémenter ce modèle dans votre application une fois et laissez le modèle faire sa magie",
+    "goodbye": "C'est tout ce qu'il y a à faire ! Passez une excellente journée"
   },
   "es": {
     "language": "Español",
-    "title": "Bienvenido a la plantilla React Language Switcher",
-    "description": "El propósito de esta plantilla es proporcionar a los desarrolladores una forma sencilla de añadir idiomas en toda su aplicación sin la dependencia de una biblioteca externa.",
+    "titleP1": "Bienvenido a",
+    "titleP2": "Selector ",
+    "titleP3": "de Idioma",
+    "description": "El propósito de esta plantilla es proporcionar a los desarrolladores una manera fácil de agregar idiomas a lo largo de su aplicación sin depender de una biblioteca externa",
     "howItWorks": "Cómo Funciona",
-    "howP1": "Paso 1: Añade tu traducción al archivo languages.json.",
-    "howP2": "Paso 2: No hay paso 2. Listo.",
-    "easy": "Ha sido fácil!",
-    "implement": "Simplemente implementa este patrón en tu app una vez y deja que el patrón haga su magia.",
-    "goodbye": "Eso es todo lo que hay que hacer! Que tenga un buen día."
+    "step1": "Paso 1: Agregue su traducción al archivo languages.json",
+    "step2": "Paso 2: No hay paso 2. ¡Has terminado!",
+    "easy": "¡Fue fácil!",
+    "implement": "Simplemente implementa este patrón en tu aplicación una vez y deja que el patrón haga su magia",
+    "goodbye": "¡Eso es todo! ¡Ten un buen día!"
   },
   "de": {
     "language": "Deutsch",
-    "title": "Willkommen bei der React Language Switcher Vorlage",
-    "description": "Der Zweck dieses Templates ist es, Entwicklern eine einfache Möglichkeit zu bieten, Sprachen in ihrer Anwendung hinzuzufügen, ohne von einer externen Bibliothek abhängig zu sein",
-    "howItWorks": "Wie es funktioniert.",
-    "howP1": "Schritt 1: Fügen Sie Ihre Übersetzung in die Datei languages.json ein.",
-    "howP2": "Schritt 2: Es gibt keinen Schritt 2. Sie sind fertig.",
+    "titleP1": "Willkommen bei",
+    "titleP2": "Sprachumschalter",
+    "titleP3": "",
+    "description": "Der Zweck dieser Vorlage besteht darin, Entwicklern eine einfache Möglichkeit zu bieten, Sprachen in ihrer Anwendung hinzuzufügen, ohne von einer externen Bibliothek abhängig zu sein.",
+    "howItWorks": "So funktioniert's",
+    "step1": "Schritt 1: Fügen Sie Ihre Übersetzung zur languages.json-Datei hinzu.",
+    "step2": "Schritt 2: Es gibt keinen Schritt 2. Sie sind fertig.",
     "easy": "Das war einfach!",
-    "implement": "Implementieren Sie dieses Muster einfach einmal in Ihrer App und lassen Sie das Muster seine Wirkung entfalten.",
-    "goodbye": "Mehr gibt es nicht zu sagen! Ich wünsche Ihnen einen schönen Tag."
+    "implement": "Implementieren Sie einfach dieses Muster einmal in Ihrer Anwendung und lassen Sie das Muster seine Magie entfalten.",
+    "goodbye": "Das ist alles! Haben Sie einen schönen Tag!"
   }
 }
