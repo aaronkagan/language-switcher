@@ -66,12 +66,12 @@ const Main = ({ languages, activeLanguage }) => {
         <h2 className="easy">{languages[activeLanguage].easy}</h2>
         <p className="implement">{languages[activeLanguage].implement}</p>
         <h3 className="goodbye">{languages[activeLanguage].goodbye}</h3>
-        <p className="download">
-          {languages[activeLanguage].download}{' '}
+        <p className="link">
+          {languages[activeLanguage].link}{' '}
           <span>
             <a
-              href="../src/languages.json"
-              download
+              href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
+              target="_blank"
             >
               {languages[activeLanguage].here}
             </a>
@@ -186,7 +186,7 @@ const StyledMain = styled.main`
     font-size: 3rem;
   }
 
-  .download {
+  .link {
     font-size: 1.6rem;
 
     a {
