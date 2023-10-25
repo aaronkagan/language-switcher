@@ -113,17 +113,20 @@ const StyledMain = styled.main`
   background-color: #f7f7f7;
   width: 80%;
   margin: 0 auto;
-  padding: 9.6rem 18rem;
+  padding: 2em 10rem;
   border-radius: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10rem;
 
+  .col-left {
+    padding-left: 2.5%;
+  }
+
   .col-left,
   .col-right {
-    width: 45%;
-    padding-left: 5%;
+    width: 50%;
   }
 
   .col-right {

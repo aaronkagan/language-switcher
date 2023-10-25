@@ -51,7 +51,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   max-width: 85%;
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 1rem 0 2rem;
 
   .logo {
     font-weight: 700;
@@ -73,7 +73,7 @@ const StyledHeader = styled.header`
     font-size: 2rem;
     font-family: inherit;
     font-weight: 500;
-    padding: 1rem 3em 1rem 2rem;
+    padding: 0.5rem 3em 0.5rem 2rem;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
