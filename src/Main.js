@@ -71,7 +71,7 @@ const Main = ({ languages, activeLanguage }) => {
           <span>
             <a
               href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
-              target="_blank"
+              target="_blank" rel="noreferrer""
             >
               {languages[activeLanguage].here}
             </a>
