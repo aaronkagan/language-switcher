@@ -12,11 +12,6 @@ No more conditional rendering. No more modifying 27000 different places in your 
 
 You can use this template as a learning tool to see how you can apply this same pattern to any of your existing or new applications.
 
-![image](https://github.com/aaronkagan/language-switcher/assets/43328855/ca6e2de5-8397-49e9-8a44-f736f2b8da9b)
-
-![image](https://github.com/aaronkagan/language-switcher/assets/43328855/c562c6d5-b8db-4b25-a808-0a7d45b0453a)
-
-![image](https://github.com/aaronkagan/language-switcher/assets/43328855/667222fd-de1b-4722-a478-e237c72e4c4e)
-
-
-
+<img width="1838" alt="image" src="https://github.com/aaronkagan/react-language-switcher-template/assets/43328855/14d66925-3da8-47e7-ac3d-d263bd5ed32b">
+<img width="1848" alt="image" src="https://github.com/aaronkagan/react-language-switcher-template/assets/43328855/f688e426-88d8-4cb7-9b10-6fda234c6d52">
+<img width="1261" alt="image" src="https://github.com/aaronkagan/react-language-switcher-template/assets/43328855/2d4aca55-eba6-4eff-803c-cd6cbaf2f952">
