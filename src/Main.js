@@ -204,6 +204,21 @@ const StyledMain = styled.main`
   .img-hero {
     width: 90%;
   }
+
+  @media screen and (max-width: 768px) {
+    .titleP2,
+    .titleP3 {
+      font-size: 5.5rem;
+    }
+    .col-left {
+      width: 95%;
+      text-align: center;
+      padding: unset;
+    }
+    .col-right {
+      display: none;
+    }
+  }
 `;
 
 export default Main;
