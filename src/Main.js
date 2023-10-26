@@ -69,18 +69,15 @@ const Main = ({ languages, activeLanguage }) => {
         <h3 className="goodbye">{languages[activeLanguage].goodbye}</h3>
         <p className="link">
           {languages[activeLanguage].link}{' '}
-          <span>
-            <a
-              href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {languages[activeLanguage].here}
-            </a>
-          </span>
+          <a
+            href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
+            // target="_blank"
+            // rel="noreferrer"
+          >
+            {languages[activeLanguage].here}
+          </a>
         </p>
       </div>
-      {/* <div className="col-right"></div> */}
     </StyledMain>
   );
 };
@@ -106,7 +103,6 @@ const StyledMain = styled.main`
     background-position-x: 85%;
     background-position-y: 45%;
     background-size: 50rem;
-    display: block;
     height: 100%;
     width: 100%;
   }
@@ -188,9 +184,21 @@ const StyledMain = styled.main`
   }
 
   @media screen and (max-width: 1600px) {
+    .container {
+      flex-direction: column;
+    }
+
     &::after {
+      left: 0;
       opacity: 0.05;
-      background-position: 45%;
+      /* background-position: 25%; */
+      /* transform: translateX(50%); */
+      /* background-position-x: 85%;
+    background-position-y: 45%; */
+      /* background-size: 60vw; */
+      /* overflow: hidden; */
+      background-size: contain;
+      background-position: center center;
     }
 
     padding-left: 5rem;
@@ -219,6 +227,20 @@ const StyledMain = styled.main`
           font-size: 1.7rem;
           font-weight: 500;
         }
+      }
+    }
+
+    @media screen and (max-width: 750px) {
+      .titleP1 {
+        font-size: 2rem;
+      }
+      .titleP2,
+      .titleP3 {
+        font-size: 4rem;
+      }
+
+      &::after {
+        display: none;
       }
     }
   }

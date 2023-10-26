@@ -77,6 +77,7 @@ const StyledHeader = styled.header`
     appearance: none;
     background: transparent;
     cursor: pointer;
+    border: 1px solid black;
   }
 
   .select-container svg {
@@ -84,6 +85,22 @@ const StyledHeader = styled.header`
     right: 0.5rem;
     cursor: pointer;
     z-index: -1;
+  }
+
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* background: red; */
+
+    .logo {
+      font-size: 3rem;
+    }
+
+    select {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
   }
 `;
 
