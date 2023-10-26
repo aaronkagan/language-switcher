@@ -85,7 +85,7 @@ const Main = ({ languages, activeLanguage }) => {
 const StyledMain = styled.main`
   background-color: #f7f7f7;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   padding: 2em 10rem;
   border-radius: 4rem;
   display: flex;
