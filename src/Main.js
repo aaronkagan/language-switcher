@@ -111,22 +111,27 @@ const Main = ({ languages, activeLanguage }) => {
 
 const StyledMain = styled.main`
   background-color: #f7f7f7;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
-  padding: 9.6rem 18rem;
+  padding: 2em 10rem;
   border-radius: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10rem;
+  gap: 8rem;
+  min-height: 80vh;
+
+  .col-left {
+    padding-left: 2.5%;
+  }
 
   .col-left,
   .col-right {
-    width: 45%;
-    padding-left: 5%;
+    width: 60%;
   }
 
   .col-right {
+    width: 40%;
   }
   .titleP1 {
     font-size: 3rem;
