@@ -44,19 +44,19 @@
     "link": "Consulte el documento languages.json",
     "here": "aquí"
   },
-  "de": {
-    "language": "Deutsch",
-    "titleP1": "Willkommen bei",
-    "titleP2": "Sprachumschalter",
-    "titleP3": "",
-    "description": "Der Zweck dieser Vorlage besteht darin, Entwicklern eine einfache Möglichkeit zu bieten, Sprachen in ihrer Anwendung hinzuzufügen, ohne von einer externen Bibliothek abhängig zu sein.",
-    "howItWorks": "So funktioniert's",
-    "step1": "Schritt 1: Fügen Sie Ihre Übersetzung zur languages.json-Datei hinzu.",
-    "step2": "Schritt 2: Es gibt keinen Schritt 2. Sie sind fertig.",
-    "easy": "Das war einfach!",
-    "implement": "Implementieren Sie einfach dieses Muster einmal in Ihrer Anwendung und lassen Sie das Muster seine Magie entfalten.",
-    "goodbye": "Das ist alles! Haben Sie einen schönen Tag!",
-    "link": "Schauen Sie sich languages.json",
-    "here": "hier an"
+  "it": {
+    "language": "Italiano",
+    "titleP1": "Benvenuti su",
+    "titleP2": "Selettore",
+    "titleP3": "di lingua",
+    "description": "Lo scopo di questo modello è fornire agli sviluppatori un modo semplice per aggiungere lingue alla loro applicazione senza dipendere da una libreria esterna.",
+    "howItWorks": "Come funziona",
+    "step1": "Passo 1: Aggiungi la tua traduzione al file languages.json.",
+    "step2": "Passo 2: Non c'è un passo 2. Sei fatto.",
+    "easy": "È stato facile!",
+    "implement": "Basta implementare questo modello nella tua applicazione una volta e lasciare che faccia la sua magia.",
+    "goodbye": "Ecco tutto! Buona giornata!",
+    "link": "Guarda languages.json",
+    "here": "qui"
   }
 }
