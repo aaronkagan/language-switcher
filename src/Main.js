@@ -236,7 +236,8 @@ const StyledMain = styled.main`
       }
       .titleP2,
       .titleP3 {
-        font-size: 4rem;
+        font-size: 4.5rem;
+        display: inline-block;
       }
 
       &::after {
