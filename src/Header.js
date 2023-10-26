@@ -85,6 +85,7 @@ const StyledHeader = styled.header`
     right: 0.5rem;
     cursor: pointer;
     z-index: -1;
+    height: 2.8rem;
   }
 
   @media screen and (max-width: 750px) {
