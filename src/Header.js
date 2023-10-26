@@ -71,7 +71,7 @@ const StyledHeader = styled.header`
     font-size: 2rem;
     font-family: inherit;
     font-weight: 500;
-    padding: 0.5rem 3em 0.5rem 2rem;
+    padding: 1rem 3em 0.5rem 2rem;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
