@@ -3,8 +3,6 @@ import styled from 'styled-components';
 const Header = ({ languages, setActiveLanguage, activeLanguage }) => {
   const languagesArray = Object.values(languages);
 
-  const handleCustomSelectArrowClick = () => {};
-
   return (
     <StyledHeader>
       <span className="logo">
