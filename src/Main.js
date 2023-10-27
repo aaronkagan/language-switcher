@@ -67,16 +67,19 @@ const Main = ({ languages, activeLanguage }) => {
         <h2 className="easy">{languages[activeLanguage].easy}</h2>
         <p className="implement">{languages[activeLanguage].implement}</p>
         <h3 className="goodbye">{languages[activeLanguage].goodbye}</h3>
-        <p className="link">
-          {languages[activeLanguage].link}{' '}
-          <a
-            href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
-            // target="_blank"
-            // rel="noreferrer"
-          >
-            {languages[activeLanguage].here}
-          </a>
-        </p>
+        <div>
+          <p className="link">
+            {languages[activeLanguage].link}{' '}
+            <a
+              className="here"
+              href="https://github.com/aaronkagan/react-language-switcher-template/blob/main/src/languages.json"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {languages[activeLanguage].here}
+            </a>
+          </p>
+        </div>
       </div>
     </StyledMain>
   );
@@ -173,9 +176,11 @@ const StyledMain = styled.main`
   .link {
     font-size: 1.6rem;
 
-    a {
+    .here {
+      display: inline-block;
       color: #8141af;
       text-decoration: none;
+      cursor: pointer;
     }
   }
 
